@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nkateko Motileng</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/normalise.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+  <div id="block_1_Cover">
+    <div id="block_1_GridCover">
+        <header>
+          <!-- <p id="myTitle">Lavius</p> -->
+          <div class="dropdown">
+            <span class="menu_icon"></span>
+            <div class="dropdown-content">
+              <ul>
+                <li><a class="green" href="#home">Home</a></li>
+                <li><a class="blue" href="#news">About Me</a></li>
+                <li><a class="red" href="#contact">Contacts</a></li>
+                <li><a class="yellow" href="#about">Projects</a></li>
+              </ul>
+            </div>
+          </div>
+        </header>
+        <center>
+          <h1>Lavius Nkateko Motileng</h1>
+          <h2>Personal Portfolio</h2>
+          <p style="margin-top:40px;width: 350px;">
+            <a href="#" class="button" role="button">Linkedin</a>
+            <a href="#" class="button" role="button">Projects</a>
+          </p>
+          <article class='glass down'>
+            <h1 class='toggle' onclick='toggle()'>Pelican</h1>
+            <p class='unimportant'><em>Pel"i*can</em>, n. Etym: [F. p&eacute;lican, L. pelicanus, pelecanus, Gr. para&ccedil;u.] [Written also pelecan.] 1. (Zo&ouml;l.)</p>
+
+            <p><em>Defn:</em> Any large webfooted bird of the genus of Pelecanus, of which about a dozen species are known. They have an enormous bill, to the lower edge of which is attached a pouch in which captured fishes are temporarily stored.
+
+            <p class='unimportant'><em>Note:</em> The American white pelican (Pelecanus erythrorhynchos) and the brown species (P. fuscus) are abundant on the Florida coast in winter, but breed about the lakes in the Rocky Mountains and British America.</p>
+          </article>
+          <svg xmlns="http://www.w3.org/2000/svg"  version="1.1">
+          <defs>
+          <filter id="blur">
+          <feGaussianBlur stdDeviation="5"/>
+          </filter>
+          </defs>
+          </svg>
+          <!-- Image by Yair Hazout via unsplash.com -->
+          <!-- Text from Webster's Unabridged Dictionary via Project Gutenberg -->
+    </div>
+    </center>
+    <footer>
+      <ul>
+        <li><a href="index.html" class="gplus"></a></li>
+        <li><a href="projects.html" class="fb"></a></li>
+        <li><a href="https://za.linkedin.com/in/laviusmotileng" class="linkedin"></a></li>
+        <li><a href="https://www.facebook.com/laviusntk.motileng" class="git"></a></li>
+      </ul>
+    </footer>
+  </div>
+  <script>
+    var i = 1;
+    setInterval(function(){
+      document.body.style.background = "url(img/code4ct_codecamp_"+i+".jpg) no-repeat center/cover fixed";
+      i++;
+      if( i == 11)
+        i = 1;
+    },5000);
+    
+  </script>
+</body>
+
+</html>
